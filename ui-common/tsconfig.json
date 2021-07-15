@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+      "declaration": true,
+      "baseUrl": "./src",
+      "allowSyntheticDefaultImports": true,
+      "target": "es6",
+      "module": "commonjs",
+      "lib": [
+          "es6","dom",
+      ],
+      "allowJs": true,
+      "outDir": "dist",
+      "rootDir": "src",
+      "strict": true,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "types": [
+          "node",
+      ],
+      "typeRoots": [
+          "./node_modules/@types"
+      ],
+      "jsx": "react-jsx"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules", "dist", "src/**/test/**"],
+}
