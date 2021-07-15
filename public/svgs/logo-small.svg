@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184.317" height="135.822" viewBox="0 0 184.317 135.822">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+
+      .b {
+        fill: #00b3ed;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-1120.31 -301)">
+    <g transform="translate(1120.31 301)">
+      <rect class="a" width="30.605" height="76.582" transform="translate(153.712 59.236)" />
+      <path class="b"
+        d="M60.874,32.795l27.3-11.855a5.507,5.507,0,0,0,3.306-5.048V2.4h-.113L65.525,13.631a7.722,7.722,0,0,0-4.651,7.082Z"
+        transform="translate(92.838 17.045)" />
+      <path class="a"
+        d="M68.357,58.762a42.442,42.442,0,0,1,83.891,9.148,41.546,41.546,0,0,1-.81,7.763L165.6,106.594a68.921,68.921,0,1,0-44.843,28.264L109.715,110.33A42.475,42.475,0,0,1,68.357,58.762"
+        transform="translate(-41.905 0)" />
+      <path class="b" d="M102.691,55.836H70.87L50.815,11.261H82.522Z" transform="translate(21.387 79.982)" />
+    </g>
+  </g>
+</svg>

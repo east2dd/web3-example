@@ -1,0 +1,14 @@
+steps:
+- name: node
+  entrypoint: npm
+  args: ['install']
+- name: node
+  entrypoint: npm
+  args: ['run','build']
+- name: 'gcr.io/cloud-builders/gsutil'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    gsutil rsync -R build gs://benqi-$BRANCH_NAME
+    gsutil web set -m index.html -e index..html gs://benqi-$BRANCH_NAME
